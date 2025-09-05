@@ -1,0 +1,4000 @@
+.chlorella-promo {
+    width: 100%;
+    background: #fff;
+    padding: 160px 0;
+}
+
+.chlorella-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.chlorella-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    gap: 40px;
+}
+
+.chlorella-text {
+    flex: 1 1 50%;
+}
+
+.chlorella-title {
+    font-family: 'Benzin-Medium';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 110%;
+    /* or 55px */
+
+    text-transform: uppercase;
+
+    /* text */
+    color: #222222;
+}
+
+.chlorella-title .green {
+    color: #517000;
+}
+
+.chlorella-description {
+    /* Органічна мікроводорість, яка замінить вам 90% всіх добавок і вітамінних комплексів */
+
+    width: 382px;
+    height: 44px;
+
+    /* Desktop/H4 */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+
+    letter-spacing: -0.02em;
+
+    margin-top: 25px;
+    /* text */
+    color: #222222;
+
+
+
+}
+
+.chlorella-btn {
+    background: #517000;
+    color: #fff;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%;
+    border: none;
+    border-radius: 8px;
+    padding: 18px 48px;
+    cursor: pointer;
+    box-shadow: 0 4px 24px rgba(81, 112, 0, 0.12);
+    transition: background 0.2s;
+    margin-top: 45px;
+}
+
+.chlorella-btn:hover {
+    background: #517000;
+    filter: drop-shadow(0px 0px 31.1px rgba(129, 190, 51, 0.5));
+    color: white;
+}
+
+.doctors-swiper-prev:hover,
+.doctors-swiper-next:hover {
+
+    transform: scale(1.05);
+}
+
+.chlorella-visual {
+    flex: 1 1 50%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.chlorella-product img {
+
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0 0 60px #b6e59e55;
+    display: block;
+}
+
+.info-box {
+    position: absolute;
+    min-width: 140px;
+    max-width: 180px;
+    background: rgba(34, 34, 34, 0.92);
+    color: #fff;
+    border-radius: 16px;
+    padding: 18px 20px 14px 20px;
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    box-shadow: 0 8px 32px rgba(81, 112, 0, 0.12);
+    font-family: 'Montserrat', Arial, sans-serif;
+    justify-content: center;
+}
+
+.info-icon {
+    width: 32px;
+    height: 32px;
+    background: #b6e59e;
+    color: #222;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    margin-right: 8px;
+    flex-shrink: 0;
+    position: absolute;
+    top: -16px;
+    left: -5px;
+}
+
+.info-content {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    align-items: center;
+}
+
+.info-number {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 46px;
+    line-height: 110%;
+    /* identical to box height, or 51px */
+    letter-spacing: -0.06em;
+
+    color: #B4D471;
+
+}
+
+.info-text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+    text-align: center;
+    letter-spacing: -0.02em;
+
+    color: #FFFFFF;
+}
+
+.info-box.top-left {
+    top: 0;
+    left: 30px;
+    /* transform: translateY(-40%); */
+    max-width: 130px;
+}
+
+.info-box.top-right {
+    top: 184px;
+    right: 0;
+    transform: translateX(-51%);
+}
+
+.info-box.bottom-left {
+    bottom: 0;
+    left: 0;
+    transform: translate(0, -70%);
+}
+
+.info-box.bottom-right {
+    bottom: 30px;
+    right: 0;
+    transform: translate(-56%, 40%)
+}
+
+@media (max-width: 900px) {
+    .chlorella-content {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 32px;
+    }
+
+    .chlorella-visual {
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 600px) {
+    .chlorella-title {
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .chlorella-product img {
+        width: 90vw;
+        max-width: 320px;
+    }
+
+    .info-box {
+        min-width: 100px;
+        max-width: 140px;
+        padding: 10px 12px 8px 12px;
+    }
+}
+
+
+/* ПРодукты на Хроллера */
+
+.block__three__spirulina {
+
+    border-radius: 24px;
+
+
+    margin: 0 auto;
+    max-width: 1100px;
+}
+
+.block__three__spirulina_title {
+    text-align: center;
+    font-family: Benzin-Medium, Montserrat, Arial, sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    margin-bottom: 32px;
+    text-transform: uppercase;
+
+
+    /* Замов свій формат спіруліни — легко і зручно */
+
+
+    /* H1 */
+    font-family: 'Benzin-Medium';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 130%;
+
+    max-width: 767px;
+    /* text */
+    color: #2D3A2E;
+
+
+}
+
+.mobile__pdf {
+    display: none;
+}
+
+.product-content {
+    display: flex;
+
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 16px;
+    flex-wrap: wrap;
+}
+
+.block__three__spirulina_text {
+
+    display: flex;
+    justify-content: center;
+}
+
+.product-image-block {
+    flex: 1 1 340px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    min-width: 340px;
+    /* max-width: 540px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    /* gap: 40px; */
+    position: relative;
+    width: 560px;
+    z-index: 67;
+    padding-top: 31px;
+}
+
+.product-image-fixed {
+    width: 461px;
+    height: 458px;
+    object-fit: contain;
+    display: block;
+    border-radius: 20px;
+
+}
+
+.product-tabs-wrap {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 32px;
+}
+
+.product-tabs {
+    display: flex;
+    background: #F5F5F5;
+    border-radius: 32px;
+    gap: 0;
+    box-shadow: none;
+    padding: 2px;
+    /* Added to create space between tabs and outer border */
+    background: #FCFCFC;
+    border: 1px solid #EBEBEB;
+    border-radius: 1000px;
+}
+
+.tab {
+    background: transparent;
+    border: none;
+    border-radius: 24px;
+    /* Adjusted to match the rounded corners in the image */
+    padding: 12px 32px;
+    font-family: Montserrat, Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #757575;
+    /* Changed to a grayish tone to match the inactive tab */
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s;
+    margin: 0;
+    opacity: 1;
+    /* Removed opacity for better control with color */
+}
+
+.tab.active {
+    background: rgba(129, 190, 51, 0.1);
+    color: #517000;
+    opacity: 1;
+    box-shadow: 0 2px 8px 0 rgba(129, 190, 51, 0.10);
+}
+
+
+.product-info-block {
+    flex: 1 1 340px;
+
+    gap: 24px;
+    min-width: 340px;
+    max-width: 540px;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.product-description {
+    /* Хлорела у таблетках значно зручніша у вживанні: просто запийте її водою зранку натщесрце за 20-30 хв до першого прийому їжі */
+
+    max-width: 540px;
+    height: 66px;
+
+    /* Desktop/H4 */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.02em;
+
+    /* text */
+    color: #222222;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+
+}
+
+.product-card__label {
+    color: #517000;
+}
+
+.product-card__cart {
+    background-color: #517000;
+}
+
+.product-card__cart:hover {
+    background: #517000;
+    filter: drop-shadow(0px 0px 31.1px rgba(129, 190, 51, 0.5));
+    color: white;
+}
+
+.product-card__one-click {
+    border: 2px solid #517000;
+    color: #517000;
+}
+
+.single_add_to_cart_button {
+    color: #517000;
+}
+
+.product-weights {
+    display: flex;
+    align-items: center;
+    align-self: stretch;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 10px;
+    position: relative;
+    min-width: 0;
+    height: 150px;
+    z-index: 69;
+    margin-bottom: 25px;
+}
+
+.weight-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-self: stretch;
+    flex-wrap: nowrap;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 0;
+    gap: 15px;
+    position: relative;
+    min-height: 0;
+    padding: 10px 10px 10px 10px;
+    background: #f9f9f9;
+    border: 1px solid #eaeaea;
+    z-index: 76;
+    overflow: hidden;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.weight-card.selected {
+    border: 1px solid #517000;
+    box-shadow: 0 0 0 1px #e6f7d6;
+    background: rgba(81, 112, 0, 0.1);
+}
+
+.weight-card.selected .weight-check {
+    display: flex;
+}
+
+.weight-card.selected .weight-price {
+    color: #517000;
+    opacity: 1;
+}
+
+.weight-price {
+
+
+    /* Desktop/H3 */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 140%;
+    /* or 25px */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.02em;
+
+    /* text */
+    color: #222222;
+
+    opacity: 0.35;
+
+
+}
+
+.weight-card .weight-check {
+    display: none;
+    position: absolute;
+    top: 5px;
+    right: 8px;
+    z-index: 2;
+}
+
+.weight-card:hover {
+
+    background: #f8fff2;
+
+    border: 1px solid #517000;
+    box-shadow: 0px 0px 44px rgba(129, 190, 51, 0.25);
+}
+
+.weight-line {
+    width: 90%;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.1);
+    display: block;
+}
+
+.weight-card.selected .weight-line {
+    background-color: #517000
+}
+
+
+
+.weight-card.selected span.weight {
+    color: #517000;
+}
+
+.weight-price.highlight {
+    color: #517000;
+
+    opacity: 1;
+
+
+}
+
+.weight-chollera {
+    width: 160px;
+    height: 25px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 140%;
+    display: flex;
+    align-items: center;
+    /* text-align: center; */
+    letter-spacing: -0.02em;
+    color: #222222;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.weight-desc {
+
+    /* H6 */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 140%;
+
+    text-align: center;
+    /* text */
+    color: #2D3A2E;
+
+    opacity: 0.55;
+
+    margin-bottom: -3px;
+
+
+}
+
+
+
+.weight-card.selected span.weight {
+    color: #517000;
+}
+
+.weight-price.highlight {
+    color: #517000;
+
+    opacity: 1;
+
+
+
+}
+
+
+.product-buttons {
+    display: flex;
+    gap: 20px;
+    margin-top: 16px;
+}
+
+
+.cert-card.active,
+.cert-card:hover {
+    border: 1px solid #517000 !important;
+    box-shadow: 0px 0px 44px rgba(81, 112, 0, 0.5) !important;
+}
+
+
+.color__green {
+    color: #517000 !important;
+}
+
+.contact-block-form-wrap form {
+    background: #fff;
+    border: 1.5px solid #517000 !important;
+
+
+}
+
+.faq__icon {
+    color: #517000 !important;
+}
+
+.product-description-collapsed .desc-toggle {
+    color: #517000 !important;
+}
+
+#wpcf7-f1938-o1 form input.wpcf7-form-control.wpcf7-submit.has-spinner.btn-color-black {
+    background: #517000 !important;
+}
+
+.contact-block-title-green {
+    color: #517000 !important;
+}
+
+.ministerstvo-title-green {
+    color: #517000 !important;
+}
+
+.cert-title-green {
+    color: #517000 !important;
+}
+
+.cert-card:hover .cert-pdf-corner {
+    display: block;
+    background: #517000 !important;
+
+    background-color: #517000 !important;
+}
+
+.faq__item:hover {
+    border: 1px solid #517000 !important;
+    box-shadow: 0px 0px 44px rgba(81, 112, 0, 0.5) !important;
+}
+
+.faq__item.active {
+    border: 1px solid #517000 !important;
+    box-shadow: 0px 0px 44px rgba(81, 112, 0, 0.5) !important;
+}
+
+/* Слайдер  */
+
+
+/* Основная секция */
+.block__four__spirulina {
+
+
+    font-family: 'Montserrat', Arial, sans-serif;
+}
+
+.block__four__header {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.block__four__title {
+    font-family: 'Benzin-Medium';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 130%;
+    /* or 47px */
+
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+
+    /* text */
+    color: #222222;
+
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+
+
+.block__four__desc {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.02em;
+
+    color: #3C474A;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Слайдер для десктопа */
+
+
+.four-swiper {
+    padding: 20px 0;
+    will-change: transform;
+    transform: translateZ(0);
+}
+
+.swiper-slide {
+    height: auto;
+}
+
+.four-card1 {
+    width: 350px;
+    height: 460px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    position: relative;
+    background: #fff;
+}
+
+.four-card5 {
+    width: 350px;
+    height: 460px;
+    border-radius: 20px;
+    overflow: hidden;
+
+    position: relative;
+    background: #fff;
+}
+
+.main__5 .block__four__desc {
+    max-width: 496px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.four-card-img {
+    width: 100%;
+    height: 470px;
+    object-fit: cover;
+    object-position: center top;
+}
+
+.four-card-img5 {
+    width: 100%;
+
+    height: 500px;
+    object-fit: cover;
+}
+
+.four-card-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.4) 50%, transparent 100%);
+    color: #fff;
+    padding: 20px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.four-card-title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 120%;
+    /* or 26px */
+
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.02em;
+
+    color: #FFFFFF;
+
+}
+
+.four-card-desc {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 140%;
+    /* or 20px */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.02em;
+
+    color: #FFFFFF;
+}
+
+/* Контролы слайдера */
+.four-swiper-controls {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    row-gap: 20px;
+    column-gap: 20px;
+    margin-top: 30px;
+    position: relative;
+}
+
+.four-swiper-prev,
+.four-swiper-next {
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.2s;
+    position: absolute;
+}
+
+.four-swiper-prev {
+    top: -270px;
+    left: -63px;
+}
+
+.four-swiper-next {
+    right: -63px;
+
+
+    top: -270px;
+}
+
+.four-swiper-prev:hover,
+.four-swiper-next:hover {
+    background: #f5f5f5;
+    transform: scale(1.05);
+}
+
+.four-swiper-prev img,
+.four-swiper-next img {
+    width: 50px;
+    height: 50px;
+}
+
+/* Пагинация */
+.swiper-pagination {
+    position: static;
+    width: auto;
+}
+
+.swiper-pagination-bullet {
+    width: 8px;
+    height: 8px;
+    background: #ddd;
+    opacity: 1;
+    margin: 0 4px;
+}
+
+.swiper-pagination-bullet-active {
+    background: #517000;
+}
+
+/* Мобильная версия */
+.four-swiper-wrap-mobile {
+    display: none;
+}
+
+.four-card1-mob {
+    width: 100%;
+    max-width: 350px;
+    height: 460px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    position: relative;
+    background: #fff;
+    margin: 0 auto 20px;
+}
+
+.four-card1-mob .four-card-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+ 
+    color: #fff;
+    padding: 20px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.four-card-link {
+    color: #B4D471;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 12px;
+    z-index: 1221;
+    text-align: center;
+    justify-content: center;
+}
+
+.icons__arrow {
+    display: flex;
+    align-items: center;
+    margin-left: 0.3rem;
+    margin-top: -2px;
+}
+
+/* Кнопка */
+.block__four__button-wrap {
+    text-align: center;
+
+}
+
+.block__four__button {
+    background: #517000;
+    color: #fff;
+
+
+    border: none;
+    border-radius: 10px;
+    padding: 18px 40px;
+    cursor: pointer;
+    transition: background 0.2s;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%;
+    /* or 19px */
+
+    text-align: center;
+    text-transform: uppercase;
+
+    /* Background 2 */
+    color: #FCFCFC;
+}
+
+.block__four__button:hover {
+    background: #6a8c00;
+}
+
+.line__slider {
+
+    height: 1px;
+    background-color: #FFFFFF4D;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* Медиа-запросы */
+@media (max-width: 768px) {
+    .block__four__spirulina {}
+
+
+
+    .block__four__desc {
+        font-size: 15px;
+        margin-bottom: 40px;
+        max-width: 345px;
+    }
+
+    .hide__to_mob {
+        display: none !important;
+    }
+
+    .four-swiper-wrap-mobile {
+        display: block !important;
+    }
+
+    .four-card1-mob {
+        height: 420px;
+    }
+
+    .four-card1-mob .four-card-img {
+        height: 240px;
+    }
+
+    .four-card1-mob .four-card-overlay {
+        height: 180px;
+    }
+
+    .block__four__button {
+        font-size: 15px;
+        padding: 15px 30px;
+    }
+}
+
+@media (max-width: 480px) {
+    .block__four__title {
+        font-size: 24px;
+    }
+
+    .four-card1-mob {
+        height: 400px;
+    }
+
+    .four-card-title {
+        font-size: 14px;
+    }
+
+    .four-card-desc {
+        font-size: 14px;
+    }
+
+    .main__6_cholerra {
+        min-width: auto !important;
+    }
+}
+
+
+/* Блок гарнатии  */
+.guarantee-section {
+    padding: 60px 0;
+    background: #fff;
+    font-family: 'Montserrat', Arial, sans-serif;
+}
+
+.guarantee-block {
+    max-width: 1160px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.guarantee-content {
+    background: #517000;
+    border-radius: 35px;
+    /* padding: 51px 60px; */
+    box-shadow: 0px 0px 140px rgba(163, 232, 89, 0.25);
+    display: flex;
+    align-items: center;
+    /* gap: 60px; */
+    position: relative;
+    overflow: hidden;
+    height: 461px;
+}
+
+.guarantee-text {
+    flex: 1;
+    color: #fff;
+    padding: 51px;
+}
+
+.guarantee-title {
+    font-family: 'Benzin-Medium';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 130%;
+    /* or 47px */
+
+
+
+    color: #FFFFFF;
+
+    margin-bottom: 24px;
+    text-transform: uppercase;
+}
+
+.guarantee-description {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.02em;
+    margin-bottom: 20px;
+    color: #FFFFFF;
+}
+
+.guarantee-commitment {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.02em;
+
+    color: #FFFFFF;
+    margin-bottom: 32px;
+    opacity: 0.9;
+}
+
+.guarantee-btn {
+    background: #fff;
+
+    border: none;
+    padding: 18px 32px;
+    border-radius: 8px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%;
+    /* or 19px */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+
+    /* Chlorela */
+    color: #517000;
+    cursor: pointer;
+    transition: all 0.2s;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.guarantee-btn:hover {
+    background: #f5f5f5;
+    transform: translateY(-2px);
+}
+
+.guarantee-visual {
+    flex: 1;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 360px;
+}
+
+.product-pouch {
+    position: relative;
+    z-index: 2;
+}
+
+.product-pouch img {
+
+    height: auto;
+
+    filter: drop-shadow(0 10px 30px rgba(0, 0, 0, 0.2));
+    position: absolute;
+    top: -230px;
+    left: -514px;
+
+}
+
+
+
+
+
+/* Адаптивность */
+@media (max-width: 1024px) {
+    .guarantee-content {
+        flex-direction: column;
+        gap: 40px;
+        padding: 40px 40px;
+    }
+
+    .guarantee-title {
+        font-size: 28px;
+    }
+
+    .guarantee-visual {
+        height: 300px;
+    }
+
+    .product-pouch img {
+        width: 240px;
+    }
+
+    .guarantee-badge img {
+        width: 100px;
+    }
+}
+
+@media (max-width: 768px) {
+    .mobile__pdf {
+
+        display: flex !important;
+
+    }
+
+    .cert-card:hover .cert-pdf-corner {
+
+        background: none !important;
+        background-color: none !important;
+    }
+
+    .guarantee-block {
+        padding: 0 15px;
+    }
+
+    .guarantee-content {
+        padding: 0;
+    }
+
+    .guarantee-title {
+        font-size: 24px;
+    }
+
+    .guarantee-description {
+        font-size: 16px;
+    }
+
+    .guarantee-commitment {
+        font-size: 14px;
+    }
+
+    .guarantee-btn {
+        font-size: 14px;
+        padding: 15px 25px;
+    }
+
+    .guarantee-visual {
+        height: 250px;
+    }
+
+    .product-pouch img {
+        width: 200px;
+    }
+
+    .guarantee-badge {
+        top: 10px;
+        right: 20px;
+    }
+
+    .guarantee-badge img {
+        width: 80px;
+    }
+}
+
+@media (max-width: 480px) {
+    .guarantee-title {
+        font-size: 20px;
+    }
+
+    .guarantee-visual {
+        height: 200px;
+    }
+
+    .product-pouch img {
+        width: 160px;
+    }
+
+    .guarantee-badge img {
+        width: 60px;
+    }
+}
+
+/* Main 6 Section Styles */
+.main__6 {
+    padding: 80px 0;
+    background: #fff;
+}
+
+.main__6_header {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.main__6_title {
+    font-family: 'Benzin-Medium';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 130%;
+    color: #222222;
+    margin-bottom: 20px;
+
+}
+
+.main__6_description {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    color: #222222;
+    max-width: 800px;
+    margin: 0 auto;
+    padding-bottom: 100px;
+}
+
+.main__6__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    align-items: center;
+}
+
+.main__6_vitamins,
+.main__6_other {
+    max-width: 347px
+}
+
+.main__6_cholerra {
+    min-width: 375px
+}
+
+.main__6_vitamins,
+.main__6_cholerra,
+.main__6_other {
+    position: relative;
+    background: #fff;
+    border-radius: 25px;
+    padding: 40px 30px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    height: fit-content;
+}
+
+.main__6_cholerra {
+    background: linear-gradient(346.73deg, #192200 -2.24%, #3B5200 42.13%, #445E00 76.63%, #517000 111.68%);
+    box-shadow: 0px 0px 169.7px rgba(129, 190, 51, 0.2);
+    color: #fff;
+    transform: scale(1.05);
+    z-index: 2;
+}
+
+.main__6_image_wrapper {
+    position: relative;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.main__6_image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: -123px;
+    border: 4px solid #fff;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.main__6_cholerra .main__6_image {
+    width: 200px;
+    height: 200px;
+    margin-top: -150px;
+}
+
+.main__6_block_title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 120%;
+    /* or 26px */
+
+    text-align: center;
+    letter-spacing: -0.02em;
+
+    color: #153636;
+}
+
+.main__6_cholerra .main__6_block_title {
+    color: #fff;
+}
+
+.main__6_pricing {
+    text-align: center;
+    margin-bottom: 20px;
+    display: flex;
+    align-content: space-between;
+    align-items: flex-start;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.main__6_pricing_green {}
+
+.main__6_price {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 140%;
+    /* or 22px */
+    padding: 10px 10px;
+    border: 1px solid #D33131;
+    border-radius: 1000px;
+    text-align: center;
+    letter-spacing: -0.02em;
+
+    color: #D33131;
+    margin-bottom: 5px;
+}
+
+.main__6_cholerra .main__6_price {
+    color: #B4D471;
+    border: 1px solid #B4D471;
+    border-radius: 1000px;
+}
+
+.main__6_price_daily {
+    padding: 10px 15px;
+    background: #D33131;
+    border-radius: 1000px;
+    color: #fff;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 140%;
+}
+
+.main__6_cholerra .main__6_price_daily {
+    color: #222222;
+
+
+    background: #B4D471;
+    border-radius: 1000px;
+
+
+
+}
+
+.main__6_absorption {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 25px;
+
+}
+
+.main__6_absorption_icon {
+    width: 20px;
+    height: 20px;
+}
+
+.main__6_absorption span {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+
+.main__6_advantages,
+.main__6_disadvantages {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.main__6_advantages li,
+.main__6_disadvantages li {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.main__6_advantages li {}
+
+.main__6_disadvantages li {}
+
+.main__6_advantages li img,
+.main__6_disadvantages li img {
+    width: 14px;
+  height: auto;
+    flex-shrink: 0;
+    margin-top: 6px;
+}
+
+.main__6_advantages li div,
+.main__6_disadvantages li div {
+    flex: 1;
+}
+
+.main__6_advantages li strong,
+.main__6_disadvantages li strong {
+    display: block;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 140%;
+
+    letter-spacing: -0.02em;
+
+    /* text */
+    color: #222222;
+    margin-bottom: 4px;
+
+}
+
+.main__6_cholerra .main__6_advantages li strong {
+    color: #fff;
+}
+
+.negative_block {
+    background: rgba(211, 49, 49, 0.05);
+    padding: 10px 15px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #D33131;
+    border-top: 1px solid rgba(211, 49, 49, 0.1);
+    border-bottom: 1px solid rgba(211, 49, 49, 0.1);
+
+
+}
+
+.positive_block {
+
+    background: rgba(180, 212, 113, 0.05);
+
+    padding: 10px 15px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+
+    color: #B4D471;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.main__6_advantages li span,
+.main__6_disadvantages li span {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 140%;
+    /* or 20px */
+
+    letter-spacing: -0.02em;
+
+    color: #153636;
+
+    opacity: 0.75;
+}
+
+.main__6_cholerra .main__6_advantages li span {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 140%;
+    color: #FFFFFF;
+
+    opacity: 0.8;
+}
+
+.main__6_disadvantages li span {}
+
+.main__6_order_btn {
+    width: 100%;
+    background: #B4D471;
+    border-radius: 8px;
+
+    border: none;
+
+    padding: 15px 30px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%;
+    color: #222222;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 20px;
+    text-transform: uppercase;
+    height: 60px;
+}
+
+.main__6_order_btn:hover {
+    background: #9BC44A;
+    transform: translateY(-2px);
+    box-shadow: 0px 4px 15px rgba(180, 212, 113, 0.3);
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .main__6__content {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .main__6_cholerra {
+        transform: none;
+        margin-top: 7rem;
+    }
+
+    .main__6_title {
+        font-size: 36px;
+    }
+}
+
+@media (max-width: 768px) {
+    .main__6 {
+        padding: 40px 0;
+    }
+
+    .main__6_title {
+        font-size: 24px;
+    }
+
+    .main__6_description {
+        font-size: 16px;
+    }
+
+    .main__6_vitamins,
+    .main__6_cholerra,
+    .main__6_other {
+        padding: 30px 20px;
+    }
+
+    .main__6_other {
+        margin-top: 6rem;
+    }
+
+    .main__7_title {
+        font-size: 24px !important;
+        max-width: 276px;
+        text-align: center;
+        margin-bottom: 4rem;
+        margin-top: 4rem;
+    }
+
+    .hidden_pc {
+        display: flex !important;
+    }
+
+    .big-tabletka-subtitle {
+        font-size: 14px;
+    }
+
+    .big-tabletka-img {
+        /* width: 120px; */
+        /* height: 120px; */
+        width: 100%;
+        height: auto;
+
+    }
+}
+
+
+.main__7_content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.main__7_title {
+
+
+    /* Desktop/H1 */
+    font-family: 'Benzin-Medium';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 130%;
+    /* or 47px */
+    text-align: center;
+
+    color: #222222;
+    text-transform: uppercase;
+}
+
+.main__7_item_right {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main__7_item {
+    background: #FCFCFC;
+    border: 1px solid #EBEBEB;
+    border-radius: 20px;
+    padding: 20px;
+    position: relative;
+    min-width: 300px;
+}
+
+.main__7_item_title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 120%;
+    /* or 26px */
+    margin-bottom: 5px;
+    letter-spacing: -0.02em;
+
+    /* text */
+    color: #222222;
+}
+
+.main__7_item_text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+
+
+    letter-spacing: -0.02em;
+
+    /* text */
+    color: #222222;
+
+    opacity: 0.55;
+}
+
+.main__7__icon {
+    width: 99px;
+    height: 79px;
+    position: absolute;
+    top: 0;
+    right: -44px;
+}
+
+.main__7__icon.ic_1 {
+    width: 139px;
+    height: 100px;
+    top: -7px;
+    right: -63px;
+}
+
+.main__7__icon.ic_2 {
+    width: 200px;
+    height: auto;
+    top: -53px;
+    right: -101px;
+}
+
+.main__7__icon.ic_3 {
+    width: 100px;
+    height: auto;
+    top: -7px;
+    right: -63px;
+}
+
+.main__7__icon.ic_4 {
+    width: 139px;
+    height: auto;
+    top: -7px;
+    right: -63px;
+}
+
+
+.main__7_item_left {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main__7_item_left .main__7_item_text {
+    text-align: end;
+}
+
+.main__7_item_left .main__7_item {
+    background: #FCFCFC;
+    border: 1px solid #EBEBEB;
+    border-radius: 20px;
+    padding: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+    align-items: flex-end;
+}
+
+
+.main__7__icon_left {
+    width: 99px;
+    height: 79px;
+    position: absolute;
+    top: 0;
+    left: -44px;
+}
+
+.main__7__icon_left.ic_1 {
+    width: 99px;
+    height: auto;
+    top: -7px;
+    right: -63px;
+}
+
+.main__7__icon_left.ic_2 {
+    width: 136px;
+    height: auto;
+    top: -2px;
+    left: -65px;
+}
+
+.main__7__icon_left.ic_3 {
+    width: 99px;
+    height: auto;
+    top: -7px;
+    right: -63px;
+}
+
+.main__7__icon_left.ic_4 {
+    width: 260px;
+    height: auto;
+    top: -76px;
+    /* right: -109px; */
+    left: -122px;
+}
+
+
+/*  */
+
+
+/* === Big Tabletka Block === */
+.big__tabletka {
+    width: 100%;
+    background: #fff;
+    margin: 100px 0 0 0;
+    padding: 0;
+}
+
+.big__tabl {
+    border-radius: 20px;
+}
+
+.big-tabletka-container {
+    max-width: 1160px;
+    margin: 0 auto;
+    padding: 0 20px 0 20px;
+}
+
+.big-tabletka-header {
+
+    margin-bottom: 32px;
+
+    text-align: center;
+}
+
+.big-tabletka-title {
+    font-family: 'Benzin-Medium';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 130%;
+
+    text-transform: uppercase;
+    margin: 0 0 8px 0;
+    letter-spacing: 0.5px;
+}
+
+.big-tabletka-title-green {
+    color: #517000;
+}
+
+.big-tabletka-underline {
+    width: 730px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+}
+
+.big-tabletka-subtitle {
+    width: 100%;
+    margin-top: 20px;
+    /* H4 */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+
+    display: flex;
+    justify-content: center;
+    color: #3C474A;
+
+
+
+}
+
+.big-tabletka-underline {}
+
+.big-tabletka-content {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+    padding: 32px 32px 32px 32px;
+    gap: 128px;
+}
+
+.big-tabletka-img-wrap {
+    min-width: 489px;
+    max-width: 489px;
+    min-height: 489px;
+    max-height: 489px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    margin-top: 51px;
+}
+
+.big-tabletka-img {
+    width: 489px;
+    height: 489px;
+    object-fit: contain;
+    display: block;
+}
+
+.big-tabletka-features {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 35px;
+    margin-top: -9px;
+    min-width: 559px;
+
+}
+
+.big-tabletka-feature {
+    margin-bottom: 0;
+}
+
+.big-tabletka-feature-title {
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #3C474A;
+    margin-bottom: 4px;
+}
+
+.big-tabletka-green {
+    color: #517000;
+    font-weight: 700;
+}
+
+.big-tabletka-feature-desc {
+
+
+    /* H4 */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: clamp(14px, 1.8vw, 16px);
+
+    line-height: 140%;
+
+    letter-spacing: -0.02em;
+
+    color: #222222;
+    opacity: 0.55;
+    max-width: 100%;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    /* opacity: 0.75; */
+
+}
+
+@media (max-width: 1200px) {
+    .big-tabletka-container {
+        max-width: 100%;
+        padding: 0 10px;
+    }
+
+    .big-tabletka-content {
+        gap: 24px;
+        padding: 24px 10px 24px 10px;
+    }
+
+    .big-tabletka-img-wrap {
+        min-width: 320px;
+        max-width: 320px;
+        min-height: 320px;
+        max-height: 320px;
+    }
+
+    .big-tabletka-img {
+        width: 320px;
+        height: 320px;
+    }
+}
+
+@media (max-width: 900px) {
+    .big-tabletka-content {
+        flex-direction: column;
+        align-items: center;
+        gap: 18px;
+        padding: 18px 4px 18px 4px;
+    }
+
+    .big-tabletka-img-wrap {
+        min-width: 220px;
+        max-width: 220px;
+        min-height: 220px;
+        max-height: 220px;
+    }
+
+    .big-tabletka-img {
+        width: 220px;
+        height: 220px;
+    }
+
+    .big-tabletka-features {
+        min-width: 0;
+        max-width: 100%;
+        width: 100%;
+    }
+}
+
+@media (max-width: 600px) {
+    .big-tabletka-header {
+        padding: 10px 4px 6px 4px;
+        font-size: 18px;
+    }
+
+    .big-tabletka-title {
+        font-size: 24px;
+    }
+
+    .big-tabletka-content {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        padding: 8px 2px 8px 2px;
+    }
+
+    .big-tabletka-img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .big-tabletka-feature-title {
+        font-size: 15px;
+    }
+
+    .big-tabletka-feature-desc {
+        font-size: 12px;
+    }
+}
+
+
+
+/* Доктор слайдер */
+
+.block__ten__spirulina {
+    max-width: 1160px;
+    margin: 60px auto 0 auto;
+    padding: 0 20px 80px 20px;
+    text-align: center;
+}
+
+.doctors__title {
+    font-family: 'Benzin-Medium';
+    font-size: 36px;
+    color: #2D3A2E;
+    margin-bottom: 25px;
+    letter-spacing: 0.5px;
+}
+
+.doctors__desc {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    color: #2D3A2E;
+    opacity: 0.75;
+    max-width: 632px;
+    margin: 0 auto 35px auto;
+}
+
+.doctor__desc__block {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.doctors-swiper-wrap {
+    position: relative;
+    margin: 0 auto;
+    max-width: 100%;
+    padding: 0 60px;
+    box-sizing: border-box;
+}
+
+.doctors-swiper {
+    padding-bottom: 40px;
+    /* max-height: 443px; */
+    overflow: hidden;
+}
+
+.doctor-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100%;
+    padding: 20px 10px;
+    box-sizing: border-box;
+}
+
+.doctor-photo {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #e6f5d6;
+    margin-bottom: 16px;
+    flex-shrink: 0;
+}
+
+.doctor-name {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    margin-bottom: 20px;
+    color: #0A321C;
+    text-align: center;
+}
+
+.doctor-desc {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 140%;
+    color: rgba(10, 50, 28, 0.7);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.doctor-desc p {
+    max-width: 285px;
+    min-height: 40px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 140%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: rgba(10, 50, 28, 0.7);
+    margin: 0;
+}
+
+.doctors-swiper-controls {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    pointer-events: none;
+    z-index: 10;
+}
+
+.doctors-swiper-prev,
+.doctors-swiper-next {
+    /* background: #e6f5d6;
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 8px 0 rgba(129, 190, 51, 0.08);*/
+    cursor: pointer;
+    border: none;
+    pointer-events: auto;
+    transition: background 0.2s;
+}
+
+
+.doctors-swiper-prev img,
+.doctors-swiper-next img {
+    width: 48px;
+    height: 48px;
+}
+
+.doctors-swiper-prev:hover,
+.doctors-swiper-next:hover {
+    /* background: #c6f5a6; */
+}
+
+/* Стили для слайдера докторов */
+.doctors-swiper .swiper-slide {
+    height: auto;
+    display: flex;
+    align-items: stretch;
+}
+
+.doctors-swiper .swiper-slide .doctor-card {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+@media (max-width: 900px) {
+    .mobile__pdf {
+
+        color: #517000 !important;
+
+
+    }
+
+    .cert-pdf-corner {
+
+        background: url(../img/chollera/icon_serf.svg) no-repeat center / contain !important;
+
+
+    }
+
+    .cert-card {
+        overflow: hidden;
+    }
+
+    .doctors-swiper {
+        padding-bottom: 60px;
+    }
+
+    .doctor-card {
+        min-width: 180px;
+        padding: 18px 8px 16px 8px;
+    }
+
+    .doctors-swiper-wrap {
+        padding: 0 40px;
+    }
+
+    .doctors-swiper .swiper-wrapper {
+        align-items: baseline;
+    }
+
+}
+
+@media (max-width: 700px) {
+    .block__ten__spirulina {
+        padding: 0 15px 40px 15px;
+    }
+
+    .doctors__title {
+        font-size: 26px;
+    }
+
+    .doctors__desc {
+        font-size: 14px;
+        max-width: 100%;
+    }
+
+    .doctor-card {
+        min-width: 140px;
+        padding: 12px 4px 10px 4px;
+    }
+
+    .doctors-swiper-wrap {
+        padding: 0 30px;
+    }
+
+    .doctors-swiper-prev,
+    .doctors-swiper-next {
+        width: 38px;
+        height: 38px;
+    }
+
+    .doctors-swiper-prev img,
+    .doctors-swiper-next img {
+        width: 18px;
+        height: 18px;
+    }
+
+    .doctors-swiper .swiper-slide .doctor-card {
+        max-width: 250px;
+    }
+}
+
+@media (max-width: 480px) {
+    .doctors-swiper-wrap {
+        padding: 0 20px;
+    }
+
+    .doctors-swiper .swiper-slide .doctor-card {
+        max-width: 200px;
+    }
+
+    .doctor-photo {
+        width: 60px;
+        height: 60px;
+    }
+
+    .doctor-name {
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+
+    .doctor-desc p {
+        font-size: 12px;
+        min-height: 30px;
+    }
+}
+
+
+
+
+@media (max-width: 700px) {
+    .four-swiper-controls {
+        display: none;
+    }
+
+    .hidden_mob {
+        display: none;
+    }
+
+    .chlorella-btn {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .main__7_content_mob {
+        display: flex;
+    }
+
+    .main__7_item {
+        display: flex;
+        flex-direction: column;
+        max-width: max-content;
+        min-width: fit-content;
+    }
+
+
+    .main__7_content_mob {
+        display: flex;
+        position: relative;
+    }
+
+
+
+
+    img.main__7__icon_glob {
+        width: 334px;
+        margin-left: -85px;
+        display: block;
+    }
+
+    .main__7_content_items {
+        display: flex;
+        flex: 1;
+        gap: 20px;
+        flex-direction: column;
+        margin-left: -49px;
+    }
+
+    .main__7_item_title {
+        font-size: 18px;
+    }
+
+
+    .main__7_item_text {
+        font-size: 14px;
+    }
+
+    .main__7_item_center {}
+
+    .main__7_item_center_mob {
+        /* width: 352px; */
+        height: 359px;
+        position: relative;
+        transition: position 0.1s ease-out;
+    }
+
+    .main__7_item_center_mob.fixed {
+        position: fixed;
+        top: 0;
+
+        width: 352px;
+        z-index: 10;
+    }
+
+    .six-mob-glass-placeholder {
+        width: 249px;
+        height: 359px;
+        display: none;
+        /* по умолчанию скрыт */
+    }
+
+    .main__7_item_center_mob.fixed+.six-mob-glass-placeholder {
+        display: block;
+    }
+
+
+
+    .main__7_item_center_mob.stopped+.six-mob-glass-placeholder {
+        display: block;
+    }
+
+    .main__7_item_center_mob.stopped {
+        position: absolute;
+        bottom: 0;
+    }
+
+    .main__7_item {
+        background: none;
+        border: none;
+
+        padding: 0;
+        position: relative;
+
+    }
+
+    .main__7__icon {
+        width: 99px !important;
+        height: 79px !important;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+    }
+
+    .main__7_item_left .main__7_item {
+        background: none;
+        border: none;
+
+        padding: 0;
+        position: relative;
+    }
+
+    .main__7__icon_left_m {
+        width: 100px;
+        height: auto;
+    }
+
+    .chlorella-description {
+        text-align: center;
+    }
+
+    .chlorella-btn {
+        width: 100%;
+    }
+
+    .block__three__spirulina_title {
+        font-size: 24px;
+        max-width: 360px;
+    }
+
+    .tab {
+        font-size: 14px;
+        padding: 12px 8px;
+    }
+
+    .product-image-fixed {
+        width: 100%;
+        height: auto;
+    }
+
+    .weight-chollera {
+        font-size: 14px;
+    }
+
+    .info-number {
+        font-size: 25px;
+    }
+
+    .info-text {
+        font-size: 12px;
+    }
+
+    .info-icon {
+        width: 28px;
+        height: 28px;
+    }
+
+    .info-box {
+        max-width: 115px;
+    }
+
+    .info-icon img {
+        width: 100%;
+    }
+
+    .info-box.top-left {
+        max-width: 105px;
+    }
+
+    .info-content {
+        display: flex;
+        flex-direction: column;
+        gap: 2px;
+        align-content: center;
+        align-items: center;
+    }
+
+    .info-box.top-left,
+    .info-box.bottom-left {
+        left: -9px
+    }
+
+    .info-box.top-right {
+        top: 80px;
+        right: -58px;
+        transform: translateX(-51%);
+    }
+
+    .info-box.bottom-right {
+        right: -51px;
+    }
+
+    .info-box.bottom-right .info-icon {
+        top: 54px;
+        left: -11px;
+    }
+
+    .info-box.bottom-left .info-icon {
+        top: 63px;
+        left: -11px;
+    }
+
+    .chlorella-description {
+        max-width: 360px;
+    }
+
+    .big-tabletka-img-wrap {
+        min-width: fit-content;
+        max-height: max-content;
+    }
+
+    .weight-card {
+        padding: 0;
+    }
+
+    .main__6_vitamins,
+    .main__6_other {
+        max-width: fit-content;
+    }
+
+    .guarantee-content {
+        min-height: fit-content;
+        height: auto;
+    }
+
+    .product-pouch-mob {
+        width: 400px;
+        min-height: 286px;
+        position: relative;
+        display: flex;
+    }
+
+    .product-pouch-mob img {
+        width: 100%;
+        height: auto;
+        /* transform: scale(1.12); */
+        position: absolute;
+        top: -155px;
+    }
+
+    .guarantee-text {
+        flex: 1;
+        color: #fff;
+        padding: 51px 25px 47px 25px;
+        z-index: 1;
+    }
+
+    .guarantee-btn {
+        font-size: 14px;
+        padding: 15px 25px;
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .guarantee-title {
+
+
+        font-family: 'Benzin-Medium';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 120%;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+
+    .guarantee-description,
+    .guarantee-commitment {
+        max-width: 295px;
+        text-align: center;
+    }
+
+    .dess-guarantee {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .main__6_pricing {
+
+        justify-content: center;
+    }
+
+    .weight-price {
+        font-size: 14px;
+    }
+
+    .weight-card {
+        padding: 0;
+        gap: 5px;
+    }
+
+    .weight-line {
+        margin: 10px;
+    }
+
+    .product-tabs-wrap {
+        margin-top: -80px;
+    }
+
+    .product-description {
+        color: #222222;
+
+        opacity: 0.8;
+    }
+
+    .four-swiper-wrap-mobile {
+        display: flex !important;
+        flex-direction: row;
+        /* Changed to row for side-by-side layout */
+        flex-wrap: wrap;
+        gap: 10px;
+        /* Optional: adds spacing between columns */
+    }
+
+    .four-swiper-wrap-mobile>* {
+        flex: 0 0 calc(50% - 5px);
+        /* Each child takes 50% width minus half the gap */
+    }
+
+    .four-card1-mob {
+        margin-bottom: 10px;
+        height: auto;
+    }
+
+    .four-card1-mob .four-card-overlay {
+        height: auto;
+    }
+
+}
+
+
+
+.tab-btn.active {
+    background: rgba(129, 190, 51, 0.1);
+    color: #517000;
+    opacity: 1;
+}
+
+.tab-btn:hover {
+    background: rgba(129, 190, 51, 0.1);
+    color: #517000;
+    opacity: 1;
+}
+
+.hidden_pc {
+    display: none;
+}
+
+/* Pop-up стили */
+.popup-backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    backdrop-filter: blur(5px);
+}
+
+.popup-container {
+    background: white;
+    border-radius: 20px;
+    max-width: 500px;
+    width: 90%;
+    max-height: 80vh;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+    animation: popupSlideIn 0.3s ease-out;
+}
+
+@keyframes popupSlideIn {
+    from {
+        opacity: 0;
+        transform: translateY(-50px) scale(0.9);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+
+.popup-close-btn {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 40px;
+    height: 40px;
+    background: #517000;
+    box-shadow: 0px 0px 20px rgba(129, 190, 51, 0.25);
+    border-radius: 5.6px;
+    border: none;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
+.popup-close-btn:hover {
+    background-color: #6ba329;
+    transform: scale(1.1);
+}
+
+.popup-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.popup-image-section {
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+    position: relative;
+}
+
+.popup-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.popup-text-section {
+    padding: 30px;
+    background: white;
+}
+
+.popup-title {
+    /* Підліткам */
+
+
+    /* Mobile/H2 */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 120%;
+
+    letter-spacing: -0.02em;
+
+    /* text */
+    color: #222222;
+
+
+
+    margin: 0 0 15px 0;
+
+}
+
+.popup-description {
+    /* Text */
+
+
+    /* Mobile/H4 */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 140%;
+    /* or 20px */
+    letter-spacing: -0.02em;
+
+    /* text */
+    color: #222222;
+
+
+
+
+    margin: 0;
+}
+
+/* Адаптивность для мобильных устройств */
+@media (max-width: 768px) {
+    .popup-container {
+        width: 95%;
+        max-height: 85vh;
+        margin: 20px;
+    }
+
+    input#promocode {
+        font-size: 14px;
+    }
+
+    .chlorella-promo {
+        margin-bottom: -4rem;
+        padding: 75px 0;
+    }
+
+    .block__four__spirulina {
+        margin-top: 5rem;
+    }
+
+    .block__four__header {
+        text-align: center;
+        margin-bottom: 60px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .block__four__title {
+
+        text-align: center;
+        max-width: 300px;
+    }
+
+    .main__6_header {
+        text-align: center;
+        display: flex;
+        margin-bottom: 60px;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+    }
+
+    .main__6_title {
+        width: 245px;
+    }
+
+    .main__6_advantages li strong,
+    .main__6_disadvantages li strong {
+        font-size: 14px;
+    }
+
+    .popup-text-section {
+        padding: 20px;
+    }
+
+    .main__6_advantages li span,
+    .main__6_disadvantages li span {
+        font-size: 12px;
+    }
+
+    .popup-title {
+        font-size: 20px;
+    }
+
+    .main__6_order_btn {
+        font-size: 14px;
+    }
+
+    .popup-description {
+        font-size: 14px;
+    }
+
+    .popup-close-btn {
+        width: 35px;
+        height: 35px;
+        font-size: 20px;
+        top: 10px;
+        right: 10px;
+    }
+
+    .popup-backdrop {
+        padding: 31px;
+    }
+
+    .main__7_header {
+        display: flex;
+        justify-content: center;
+    }
+
+    .big-tabletka-header {
+
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+    }
+
+    .big-tabletka-title {
+        font-size: 24px;
+        max-width: 245px;
+        text-align: center;
+    }
+
+    .big-tabletka-img {
+        width: 100% !important;
+    }
+}
+
+
+
+@media (max-width: 480px) {
+    .popup-container {
+        width: 98%;
+        margin: 10px;
+    }
+
+
+
+    .popup-text-section {
+        padding: 15px;
+    }
+
+    .popup-title {
+        font-size: 18px;
+    }
+
+    .popup-description {
+        font-size: 13px;
+    }
+
+    .doctors-swiper-wrap {
+        padding: 0px;
+    }
+}
+
+/* Стили для кликабельных карточек */
+.swipers__img_card {
+    position: absolute;
+    z-index: -1;
+    inset: 0;
+}
+
+.swipers__img_card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.2s ease-out;
+    will-change: transform;
+}
+
+.four-swiper .four-card1 {
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    flex-flow: column;
+    overflow: hidden;
+    cursor: pointer;
+    height: 28.8125rem;
+}
+
+
+.four-swiper-wrap-mobile .four-card1-mob {
+    cursor: pointer;
+
+}
+
+.four-swiper-wrap-mobile .four-card1-mob:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.footer-callback-btn {
+    background: #517000;
+}
+
+/* === Composition hero (screenshot 1) === */
+.composition-hero {
+    padding: 80px 0;
+    background: #fff;
+}
+
+.composition-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 48px;
+    align-items: start;
+}
+
+.composition-left {
+    display: flex;
+    justify-content: center;
+}
+
+.composition-visual {
+    width: 100%;
+    max-width: 520px;
+    height: auto;
+    display: block;
+}
+
+.composition-right {
+    max-width: 640px;
+}
+
+.composition-title {
+    font-family: 'Benzin-Medium';
+    font-weight: 400;
+    font-size: 33px;
+    line-height: 130%;
+    text-transform: uppercase;
+    color: #222222;
+    margin: 0 0 16px 0;
+}
+
+.composition-desc {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    color: #222222;
+    opacity: 0.55;
+    margin: 0 0 12px 0;
+    padding-right: 8rem;
+}
+
+.composition-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 14px;
+    color: #6BA329;
+    text-decoration: none;
+    margin-bottom: 28px;
+}
+
+.composition-link-icon {
+    display: inline-flex;
+}
+
+.composition-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px 28px;
+}
+
+.composition-grid-top {
+    grid-template-columns: 1fr 1fr;
+}
+
+.composition-bottom {
+    margin-top: 16px;
+}
+
+.composition-grid-bottom {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px 28px;
+}
+
+.composition-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    flex-direction: column;
+}
+
+.composition-pill {
+
+    /* padding: 6px 10px;
+    border: 1px solid #e8e8e8;
+    border-radius: 1000px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 12px;
+    color: #4C5661;
+    white-space: nowrap;
+    background: #FCFCFC; */
+}
+
+.composition-item img {
+    width: 100%;
+    height: auto;
+}
+
+.composition-item-title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 140%;
+    color: #222222;
+    margin-bottom: 2px;
+}
+
+.composition-item-desc {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 140%;
+    color: #222222;
+    opacity: 0.55;
+}
+
+/* Modal tweaks for composition modal (uses shared popup styles) */
+.composition-modal {
+    max-width: 720px;
+    overflow: visible;
+    /* allow close button to render outside */
+    position: relative;
+}
+
+/* Close button outside for composition modal */
+.composition-modal>.popup-close-btn {
+    top: -18px;
+    right: -18px;
+    border-radius: 50%;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+
+    box-shadow: 0px 0px 20px rgba(129, 190, 51, 0.25);
+    border-radius: 5.6px;
+    font-size: 33px;
+}
+
+.tabl_big {
+
+    opacity: 0.5;
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.big_pp_tabl {
+    font-size: 18px;
+}
+
+.big_pp_tabl_tt {
+    font-size: 22px;
+}
+
+@media (max-width: 900px) {
+    .mob_hidden {
+        display: none;
+    }
+
+    .mob__conteiner {
+        display: grid;
+        flex-direction: row;
+        /* grid-template-columns: 1fr 1fr; */
+        justify-items: stretch;
+        align-items: center;
+    }
+
+    .big_pp_tabl_tt {
+        font-size: 16px;
+    }
+
+    .composition-container {
+        grid-template-columns: 1fr;
+        gap: 24px;
+    }
+
+    .tabl_big {
+        font-size: 14px;
+    }
+
+    .big_pp_tabl {
+        font-size: 16px;
+    }
+
+    .composition-right {
+        max-width: 100%;
+    }
+
+    .composition-title {
+        font-size: 32px;
+    }
+
+    .composition-grid-bottom {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .composition-item-title {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 600px) {
+    .composition-title {
+        font-size: 24px;
+    }
+
+    .composition-desc {
+        padding-right: 3rem;
+    }
+
+    .composition-grid {
+        grid-template-columns: 1fr 1fr;
+        gap: 16px;
+    }
+
+    .composition-grid-bottom {
+        /* grid-template-columns: 1fr; */
+    }
+}
+
+/* Keep close button inside on very small screens to avoid cropping */
+@media (max-width: 600px) {
+    .composition-modal>.popup-close-btn {
+        top: -17px;
+        right: -10px;
+    }
+}
+
+@media (min-width: 900px) {
+
+    .pc_hiden {
+        display: none;
+    }
+
+}
+
+/* Chollera Science Block Styles */
+.chollera-science-block {
+    width: 100%;
+    background: #fff;
+    padding: 80px 0;
+}
+
+.chollera-science-top {
+    max-width: 1200px;
+    margin: 0 auto 60px;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    padding: 0 20px;
+}
+
+.chollera-science-img-wrap {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.chollera-science-img-wrap img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+}
+
+.chollera-science-info {
+    flex: 1;
+}
+
+.chollera-science-title {
+    font-family: 'Benzin-Medium', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 110%;
+    text-transform: uppercase;
+    color: #222222;
+    margin: 0 0 25px 0;
+}
+
+.chollera-science-desc {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+
+    letter-spacing: -0.02em;
+
+    color: #333333;
+
+    opacity: 0.75;
+    margin: 0 0 35px 0;
+    max-width: 500px;
+}
+
+.chollera-science-btn {
+    background: #517000;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%;
+    border: none;
+    border-radius: 8px;
+    padding: 18px 48px;
+    cursor: pointer;
+    box-shadow: 0 4px 24px rgba(81, 112, 0, 0.12);
+    transition: background 0.2s;
+    text-transform: uppercase;
+}
+
+.chollera-science-btn:hover {
+    background: #395100;
+}
+
+.chollera-science-slider {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.chollera-science-swiper {
+    position: relative;
+}
+
+.chollera-science-card {
+    background: #fff;
+    border-radius: 12px;
+    padding: 30px;
+    border: 1px solid #EBEBEB;
+    border-radius: 15px;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.chollera-science-card-text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 140%;
+    color: #222222;
+    margin-bottom: 20px;
+    flex-grow: 1;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 8;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+}
+
+.chollera-science-card-pubmed {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.chollera-science-card-pubmed img {
+    height: 24px;
+    width: auto;
+}
+
+.chollera-science-card-link {
+    background: none;
+    border: none;
+    color: #222222;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: color 0.2s;
+}
+
+.chollera-science-card-link:hover {
+    color: #395100;
+}
+
+.chollera-science-swiper-controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.chollera-science-swiper-prev,
+.chollera-science-swiper-next {
+    width: 48px;
+    height: 48px;
+    background: #517000;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.2s;
+}
+
+.chollera-science-swiper-prev:hover,
+.chollera-science-swiper-next:hover {
+    background: #395100;
+}
+
+.chollera-science-swiper-prev svg,
+.chollera-science-swiper-next svg {
+    width: 20px;
+    height: 20px;
+}
+
+.swiper-pagination {
+    position: static;
+    width: auto;
+}
+
+.swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+    background: #ddd;
+    opacity: 1;
+    margin: 0 6px;
+}
+
+.swiper-pagination-bullet-active {
+    background: #517000;
+}
+
+/* Responsive styles */
+@media (max-width: 1024px) {
+    .chollera-science-top {
+        flex-direction: column;
+        text-align: center;
+        gap: 40px;
+    }
+
+    .chollera-science-title {
+        font-size: 36px;
+    }
+
+    .chollera-science-desc {
+        margin: 0 auto 35px;
+    }
+}
+
+.chollera-science-popup-content1 {
+    position: relative;
+}
+
+@media (max-width: 768px) {
+    .chollera-science-block {
+        padding: 60px 0;
+    }
+
+    .chollera-science-top {
+        margin-bottom: 40px;
+        padding: 0 15px;
+    }
+
+    .chollera-science-title {
+        font-size: 28px;
+    }
+
+    .chollera-science-desc {
+        font-size: 16px;
+    }
+
+    .chollera-science-btn {
+        padding: 16px 32px;
+        font-size: 14px;
+    }
+
+    .chollera-science-slider {
+        padding: 0 15px;
+    }
+
+    .chollera-science-card {
+        padding: 20px;
+        height: 250px;
+    }
+
+    .chollera-science-card-text {
+        font-size: 14px;
+        font-size: 14px;
+    }
+
+    .chollera-science-swiper-controls {
+        display: none;
+    }
+
+    .chollera-stars-nav {
+        display: none !important;
+    }
+
+    .chollera-science-swiper-prev,
+    .chollera-science-swiper-next {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@media (max-width: 480px) {
+    .chollera-science-title {
+        font-size: 24px;
+    }
+
+    .chollera-science-desc {
+        font-size: 14px;
+    }
+
+    .chollera-science-card {
+        height: 220px;
+        padding: 15px;
+    }
+
+    .chollera-science-card-text {
+        font-size: 13px;
+    }
+}
+
+/* Chollera Science Popup Styles */
+.chollera-science-popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 10000;
+    backdrop-filter: blur(5px);
+}
+
+.chollera-science-popup.active {
+    display: flex;
+}
+
+.chollera-science-popup-content {
+    background: #fff;
+    border-radius: 16px;
+    max-width: 600px;
+    width: 90%;
+    max-height: 80vh;
+    overflow-y: auto;
+    position: relative;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+    animation: cholleraPopupSlideIn 0.3s ease-out;
+}
+
+@keyframes cholleraPopupSlideIn {
+    from {
+        opacity: 0;
+        transform: translateY(-30px) scale(0.95);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+
+.chollera-science-popup-close {
+    position: absolute;
+    top: -15px;
+    right: 48px;
+    width: 40px;
+    height: 40px;
+    background: #517000;
+    border: none;
+    border-radius: 50%;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease;
+    z-index: 1000;
+    border-radius: 5.6px;
+    font-size: 30px;
+}
+
+.chollera-science-popup-close:hover {
+    background: #395100;
+    transform: scale(1.1);
+}
+
+.chollera-science-popup-header {
+    padding: 30px 30px 20px 30px;
+    border-bottom: 1px solid #eee;
+}
+
+.chollera-science-popup-title {
+    font-family: 'Benzin-Medium', sans-serif;
+    font-size: 24px;
+    color: #517000;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.chollera-science-popup-body {
+    padding: 20px 30px 30px 30px;
+}
+
+.chollera-science-popup-text {
+    font-family: 'Montserrat';
+    font-size: 16px;
+    line-height: 160%;
+    color: #222222;
+    margin: 0;
+}
+
+.chollera-science-popup-footer {
+    padding: 20px 30px 30px 30px;
+    border-top: 1px solid #eee;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.chollera-science-popup-pubmed {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.chollera-science-popup-pubmed img {
+    height: 24px;
+    width: auto;
+}
+
+.chollera-science-popup-pubmed span {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #666;
+}
+
+/* Responsive popup */
+@media (max-width: 768px) {
+    .chollera-science-popup-content {
+        width: 95%;
+        max-height: 85vh;
+    }
+
+    .chollera-science-popup-header,
+    .chollera-science-popup-body,
+    .chollera-science-popup-footer {
+        padding: 20px;
+    }
+
+    .chollera-science-popup-title {
+        font-size: 20px;
+    }
+
+    .chollera-science-popup-text {
+        font-size: 14px;
+    }
+
+    .chollera-science-popup-close {
+        top: -10px;
+        right: -10px;
+        width: 35px;
+        height: 35px;
+        font-size: 18px;
+        z-index: 1000;
+    }
+}
+
+/* Chollera Stars Block Styles */
+.chollera-stars-block {
+    width: 100%;
+    background: #fff;
+    padding: 80px 0;
+    overflow: hidden;
+}
+
+.chollera-stars-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    overflow: hidden;
+}
+
+.chollera-stars-header {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.chollera-stars-title {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin: 0;
+}
+
+.chollera-stars-title-green {
+    font-family: 'Benzin-Medium', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 130%;
+    text-transform: uppercase;
+    color: #517000;
+}
+
+.chollera-stars-title-black {
+    font-family: 'Benzin-Medium', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 130%;
+    text-transform: uppercase;
+    color: #222222;
+}
+
+.chollera-stars-nav {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    position: relative;
+    z-index: 10;
+}
+
+.chollera-stars-nav-prev,
+.chollera-stars-nav-next {
+    width: 48px;
+    height: 48px;
+    background: #517000;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease;
+}
+
+.chollera-stars-nav-prev:hover,
+.chollera-stars-nav-next:hover {
+    background: #395100;
+    transform: scale(1.05);
+}
+
+.chollera-stars-nav-prev svg,
+.chollera-stars-nav-next svg {
+    width: 20px;
+    height: 20px;
+}
+
+.chollera-stars-slider {
+    position: relative;
+    margin: 0 -20px;
+    padding: 0 20px;
+}
+
+@media (width > 64em) {
+    .chollera-stars-swiper {
+        padding: 20px 0;
+        overflow: visible;
+        min-height: 450px;
+    }
+
+}
+
+.chollera-star-card {
+    background: #fff;
+    border-radius: 15px;
+
+
+
+    display: flex;
+    flex-direction: column;
+
+    min-width: 260px;
+}
+
+.chollera-star-card:hover {}
+
+.chollera-star-image {
+    width: 100%;
+    max-height: 261px;
+    overflow: hidden;
+}
+
+.chollera-star-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center top;
+}
+
+.chollera-star-info {
+    padding: 20px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #E5E5E5;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.chollera-star-name {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 120%;
+    color: #222222;
+    margin: 0 0 12px 0;
+}
+
+.chollera-star-desc {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    color: #222222;
+    margin: 0;
+    flex-grow: 1;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+}
+
+/* Responsive styles */
+@media (max-width: 1024px) {
+    .chollera-stars-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 30px;
+    }
+
+    .chollera-stars-title-green,
+    .chollera-stars-title-black {
+        font-size: 32px;
+    }
+}
+
+@media (max-width: 768px) {
+    .chollera-stars-block {
+        padding: 60px 0;
+    }
+
+    .chollera-stars-container {
+        padding: 0 15px;
+    }
+
+    .chollera-stars-header {
+        margin-bottom: 40px;
+        gap: 25px;
+    }
+
+    .chollera-stars-title-green,
+    .chollera-stars-title-black {
+        font-size: 28px;
+    }
+
+    .chollera-stars-nav-prev,
+    .chollera-stars-nav-next {
+        width: 40px;
+        height: 40px;
+    }
+
+    .chollera-stars-nav-prev svg,
+    .chollera-stars-nav-next svg {
+        width: 18px;
+        height: 18px;
+    }
+
+    .chollera-star-card {
+        border-radius: 12px;
+    }
+
+    .chollera-star-image {
+        height: 180px;
+    }
+
+    .chollera-star-info {
+        padding: 16px;
+    }
+
+    .chollera-star-name {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    .chollera-star-desc {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 480px) {
+    .chollera-stars-block {
+        padding: 40px 0;
+    }
+
+    .chollera-stars-container {
+        padding: 0 10px;
+    }
+
+    .chollera-stars-header {
+        margin-bottom: 30px;
+        gap: 20px;
+    }
+
+    .chollera-stars-title-green,
+    .chollera-stars-title-black {
+        font-size: 24px;
+    }
+
+    .chollera-stars-nav-prev,
+    .chollera-stars-nav-next {
+        width: 36px;
+        height: 36px;
+    }
+
+    .chollera-stars-nav-prev svg,
+    .chollera-stars-nav-next svg {
+        width: 16px;
+        height: 16px;
+    }
+
+    .chollera-star-image {
+        height: 160px;
+    }
+
+    .chollera-star-info {
+        padding: 14px;
+    }
+
+    .chollera-star-name {
+        font-size: 15px;
+        margin-bottom: 8px;
+    }
+
+    .chollera-star-desc {
+        font-size: 12px;
+    }
+}

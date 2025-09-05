@@ -1,0 +1,1545 @@
+@media (width < 64em) {
+  .only_mob {
+    display: block;
+  }
+
+  .product-image {
+    position: relative;
+    top: 0;
+  }
+
+  p {
+    font-size: 14px !important;
+  }
+
+  .color__green {
+    font-size: 24px;
+  }
+
+  .only_mobile {
+    display: flex;
+  }
+
+  .only_pc {
+
+    display: none !important;
+  }
+
+  /* Главная 1 надпись */
+  .ozero-main-text h1 {
+    font-size: 27px;
+    text-align: center;
+  }
+
+  .main-header {
+    height: 70px;
+    border-bottom: 1px solid #EBEBEB;
+  }
+
+  .ozero-main-benefits {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* gap: 10px 20px; */
+    width: 100%;
+    margin-top: 25px;
+    justify-items: center;
+    align-items: start;
+  }
+
+  .rev__tt h2 {
+    width: 100%;
+  }
+
+  /* Меню пк */
+
+  .header-nav {
+    display: none;
+  }
+
+  /* Слайдер */
+  .reviews-swiper-prev,
+  .reviews-swiper-next {
+    display: none;
+  }
+
+  .review-img-wrap {
+    min-height: 384px;
+  }
+
+  .ozero-benefit img {
+    width: 22px;
+    height: 22px;
+  }
+
+  /* Озеро */
+
+  .seven-lake-bg {
+    border-radius: 0;
+    width: 100%;
+    background: url(../img/mobile_ozero.png) no-repeat center;
+
+    height: 1205px;
+    background-size: 100%;
+    border-radius: 25px;
+    padding: 20px;
+  }
+
+  .seven-card {
+    margin: 0;
+    width: 100%;
+  }
+
+  .ozero-main-text p {
+    text-align: center;
+  }
+
+  .ozero-main-section {
+    max-height: 294px;
+  }
+
+  .ozero-main-btn {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 10px;
+    height: 50px;
+  }
+
+  .block__ministerstvo {
+    padding: 15px;
+  }
+
+
+
+  .ozero-main-benefits .ozero-main-btn {
+    grid-column: 1 / -1;
+    justify-self: center;
+    width: 100%;
+    max-width: 265px;
+    margin-top: 10px;
+  }
+
+  .ozero-main-benefits .line__main {
+    display: none;
+  }
+
+  .ozero-benefit-line {
+    display: block;
+    background: url(../img/main-page/line__mobs.png) no-repeat center / contain;
+    background-size: cover;
+    width: 1px;
+    height: 100%;
+
+  }
+
+  .ozero-benefit span {
+    text-align: center;
+    max-width: 155px;
+  }
+
+  .ozero-benefit {
+    font-size: 12px;
+    margin-bottom: 10px;
+    display: flex;
+    align-self: stretch;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-width: 160px;
+  }
+
+  /* .ozero-main-image img {
+    width: 92vw;
+    max-width: 359px;
+    margin-left: 42px;
+  } */
+  .ozero-main-image img {
+    width: 100%;
+
+    margin-left: 24px;
+    position: absolute;
+    top: 0;
+    max-width: 500px;
+  }
+
+  .ozero-main-image {
+
+    margin-top: -109px;
+    text-align: center;
+    width: 100%;
+
+    position: relative;
+    overflow: hidden;
+    min-height: 474px;
+  }
+
+  /* .ozero-main-image {
+    position: static;
+    margin-top: -109px;
+    text-align: center;
+    width: 100%;
+    margin-left: -7px;
+  } */
+
+
+  .block__seven__spirulina .container {
+    padding: 1rem;
+  }
+
+  .block__nine__spirulina {
+    padding: 15px;
+  }
+
+  .product-description-collapsed .desc-toggle {
+    font-size: 14px;
+  }
+
+  section.seo__main.container {
+
+    padding: 15px;
+  }
+
+  .product-description-collapsed h2 {
+    font-size: 16px;
+  }
+
+  /* Продукты */
+  .product-card__cart {
+    font-size: 14px;
+  }
+
+  .product-card__choose {
+    font-size: 14px;
+  }
+
+  .block__products {
+    display: flex;
+    flex-flow: column;
+    margin-top: 2rem;
+    gap: 1rem;
+    margin-inline: -1rem;
+    flex-flow: row;
+    gap: 0.5rem;
+    flex-direction: column;
+  }
+
+
+  .products__info {
+    /* flex: 1 1 auto; */
+    display: flex;
+    flex-direction: column;
+    margin-left: 0px;
+    z-index: 2;
+    position: relative;
+    justify-content: center;
+    margin-top: -36px;
+    align-items: center;
+    align-content: center;
+    margin-left: -70px;
+  }
+
+  .products {
+    padding: 15px;
+  }
+
+  .product-card__images {
+    width: 180px;
+  }
+
+  .product-cards__weights {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 1rem;
+    justify-content: center;
+    margin-top: -2rem;
+    /* margin-block-start: revert; */
+    margin-bottom: 3rem;
+    padding: 15px;
+  }
+
+  .product-cards__weight {
+
+    width: 100%;
+    min-width: 101px;
+  }
+
+  .block__title__rating {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    margin-bottom: 0;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+
+  .product-card__rating {
+    margin-left: 0;
+    gap: 0;
+  }
+
+  /* Форма обратной связи */
+
+  .contact-block-title {
+    font-size: 24px;
+  }
+
+  .contact-block-container {
+    max-width: 1150px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 64px;
+    row-gap: 64px;
+    column-gap: 64px;
+  }
+
+  #wpcf7-f1938-o1 form input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required {
+    width: 100%;
+  }
+
+  .title__block__oz {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  section.main__page_slider {
+    margin-top: 60px;
+  }
+
+  .seven-title {
+    width: 200px;
+  }
+
+  .reviews-slider-title,
+  .reviews-slider-title .color__green,
+  .cert-title,
+  .ministerstvo-title,
+  .seven-title,
+  .faq__title {
+    font-size: 24px;
+  }
+
+  /* Сертификаты */
+  .cert-card:hover .cert-pdf-corner {
+    background: url(../img/mobile_serf.svg) no-repeat center / contain;
+  }
+
+  .header__top_prod h2 {
+    text-align: left;
+  }
+
+  .cert-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .cert-card {
+    width: clamp(80px, 44vw, 185px);
+    height: 173px;
+  }
+
+  .certificates {
+    padding: 15px;
+    margin: 55px auto 0 auto;
+  }
+
+  .cert-pdf-corner {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 48px;
+    height: 48px;
+    background: url(../img/mobile_serf.svg) no-repeat center / contain;
+    z-index: 2;
+  }
+
+  h2.ministerstvo-title.title_mob {
+    max-width: 345px;
+  }
+
+  .ministerstvo-video-img {
+    width: auto;
+
+  }
+
+  .ministerstvo-play-btn,
+  .ministerstvo-play-btn img {
+    width: 78px;
+    height: 78px;
+  }
+
+  .mobile__pdf {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 8px;
+    line-height: 140%;
+    color: #81BE33;
+    display: block;
+  }
+
+  .cert-name {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 140%;
+    margin-bottom: 7px;
+  }
+
+  .cert-desc {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 140%;
+  }
+
+  .cert-card img {
+    width: 73px;
+    height: 73px;
+  }
+
+  .cert-pdf-corner img {
+    display: none;
+  }
+
+  .ministerstvo-logo-block {
+    flex: none
+  }
+
+  .seven-card-title {
+    font-size: 18px;
+    max-width: 195px;
+    text-align: left;
+    line-height: 120%;
+  }
+
+  .seven-card-text {
+    font-size: 14px;
+  }
+
+  .faq__question {
+    font-size: 16px;
+  }
+
+  .faq__answer {
+    font-size: 14px;
+  }
+
+  /* Footer */
+
+  /* Footer */
+
+  .footer-col-nav {
+    min-width: 100px;
+    max-width: 100px;
+    flex-direction: column;
+    gap: 10px;
+    display: flex;
+  }
+
+  .footer-top {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 35px;
+    padding: 15px;
+
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+
+  .footer-google-title {
+    font-size: 14px;
+  }
+
+  .footer-col-phones {
+    min-width: 180px;
+    max-width: 180px;
+    gap: 3px;
+    /* padding-left: 96px; */
+    padding-left: 0px;
+    padding-top: 35px;
+  }
+
+  .main-footer {
+    /* padding: 15px; */
+  }
+
+  .footer-logo {
+    width: 101px;
+    height: auto;
+    margin-bottom: 0px;
+  }
+
+  .footer-google-stars {
+    letter-spacing: 0px;
+  }
+
+  .footer-google-rating {
+    font-size: 10px;
+    color: #444;
+    margin-bottom: 2px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 140%;
+  }
+
+  .footer-col-social {
+    padding-left: 0px;
+    max-width: 100px;
+    padding-top: 35px;
+  }
+
+  .footer-col-logo {
+    gap: 0px;
+  }
+
+  .footer-col-btn-mob {
+
+    margin: 15px;
+    display: block;
+  }
+
+  .footer-top .footer-col-btn {
+    display: none;
+  }
+
+  .footer-bottom-links {
+    display: flex;
+    gap: 13px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-bottom {
+    align-items: center;
+    gap: 26px;
+    /* padding: 10px 4px 6px 4px; */
+    display: flex;
+    flex-direction: column;
+    border: none;
+    margin-top: 29px;
+
+  }
+
+  .doctors-swiper-controls {
+    display: none;
+  }
+
+  .footer-col-phones::before {
+    right: 0;
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 41%;
+    height: 100%;
+    width: 91%;
+    background-color: #c1c1c1;
+    height: 1px;
+    /* padding: 1px; */
+    margin: 0 auto;
+  }
+
+  .line__footer__mob {
+    border-top: 1px solid #e5e5e5;
+    position: absolute;
+
+    width: 100%;
+    display: block;
+  }
+
+  .main-footer {
+    border: none;
+    position: relative;
+  }
+
+  .mobile-menu-header {
+
+    justify-content: space-between;
+    padding: 18px 20px 18px 20px;
+
+    background: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .mobile-menu-logo {
+    height: 38px;
+    width: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+  .mobile-menu-backdrop {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.45);
+    transition: opacity 0.2s;
+  }
+
+  .mobile-menu-backdrop.open {
+    display: block;
+  }
+
+  .mobile-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    z-index: 1001;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background: #fff;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.10);
+    transform: translateY(-120%);
+    transition: transform 0.25s cubic-bezier(.4, 0, .2, 1);
+    padding: 32px 0 32px 0;
+  }
+
+  .mobile-menu.open {
+    transform: translateY(0);
+  }
+
+  .mobile-menu-close {
+    position: absolute;
+    top: 18px;
+    right: 18px;
+
+    border: none;
+    border-radius: 8px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 1002;
+  }
+
+  .mobile-menu-list {
+    list-style: none;
+    padding: 48px 0 0 0;
+    margin: 0 0 24px 0;
+    text-align: center;
+    width: 100%;
+  }
+
+  .mobile-menu-list li {
+    margin-bottom: 20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 140%;
+  }
+
+  .mobile-menu-list a {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 140%;
+
+    color: #3E3E3E;
+    text-decoration: none;
+    transition: color 0.18s;
+  }
+
+  .mobile-menu-close img {
+    max-width: max-content;
+  }
+
+  .mobile-menu-list a:hover {
+    color: #81BE33;
+  }
+
+  .mobile-menu-cart,
+  .mobile-menu-login {
+    width: 100%;
+    margin: 0 auto 12px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 120%;
+    border-radius: 8px;
+    border: 2px solid #81BE33;
+    background: #81BE33;
+    color: #fff;
+    padding: 12px 0;
+    gap: 10px;
+    cursor: pointer;
+    transition: background 0.18s, color 0.18s;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+
+  .mobile__menu__action {
+    padding: 15px;
+    width: 90%;
+  }
+
+  .mobile-menu-login {
+    background: #fff;
+    color: #81BE33;
+    border: 2px solid #81BE33;
+    margin-bottom: 32px;
+  }
+
+  .mobile-menu-cart img,
+  .mobile-menu-login img {
+    width: 14px;
+    height: 14px;
+  }
+
+  .mobile-menu-contacts {
+    padding: 0 24px;
+    text-align: left;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .mobile-menu-phones a {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    margin-bottom: 10px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 140%;
+    color: #3E3E3E;
+    text-decoration: none;
+
+  }
+
+  .reviews-slider-wrap {
+    padding: 0px;
+  }
+
+  .mobile-menu-phones {
+
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+  }
+
+  .mobile-menu-phones img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .mobile-menu-socials {
+
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .mobile-menu-phones::before {
+    content: '';
+    width: 105px;
+    height: 0px;
+    border: 1px solid #EBEBEB;
+    margin-bottom: 26px;
+    margin-left: 10px;
+    display: flex;
+  }
+
+  .mobile-menu-phones::after {
+    content: '';
+    width: 105px;
+    height: 0px;
+    border: 1px solid #EBEBEB;
+    margin-bottom: 26px;
+    margin-top: 26px;
+    margin-left: 10px;
+    display: flex;
+  }
+
+  .mobile-menu-socials a {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #3E3E3E;
+    font-size: 12px;
+    text-decoration: none;
+    transition: color 0.18s;
+    margin-bottom: 12px;
+  }
+
+  .mobile-menu-socials a:hover {
+    color: #81BE33;
+  }
+
+  .mobile-menu-socials img {
+    width: 22px;
+    height: 22px;
+  }
+
+  .mobile-menu-btn {
+    display: flex;
+    background: none;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    padding: 0 8px 0 0;
+    height: 48px;
+    cursor: pointer;
+    z-index: 1002;
+  }
+
+  .header-nav,
+  .header-icons a:not(.mobile-menu-btn) {
+    /* display: none !important; */
+  }
+
+  .checkout-sidebar.only_mobile {
+    flex-direction: column;
+    background: #FCFCFC;
+    border: 1px solid #EBEBEB;
+    border-radius: 20px;
+    padding: 16px 22px 0px 24px;
+    height: max-content;
+  }
+
+  .checkout-sidebar.only_mobile {
+    margin: 10px 0;
+  }
+
+  .collapsible {}
+
+  .collapsible-content {
+    display: none;
+    padding: 0 10px 10px;
+  }
+
+  .collapsible.active .toggle-arrow {
+    transform: rotate(90deg);
+  }
+
+  .toggle-arrow {
+    transition: transform 0.3s;
+  }
+
+  .on__mobile_hide {
+    display: none;
+  }
+
+  .check__info {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .spirulina-product .products__footer {
+    padding: 0;
+    margin-top: 1rem;
+  }
+
+  .cart-count {
+    /* display: none; */
+    right: 64px;
+    font-size: 10px;
+    width: 15px;
+    height: 15px;
+    top: 22px;
+  }
+
+  img#mobileMenuIcon {
+    width: 40px;
+  }
+
+  .header-icon-btn img {
+    width: 40px;
+    height: 40px;
+    display: block;
+  }
+
+  .header-icons {
+    gap: 7px;
+  }
+
+  section.main__page__block__1 {
+    margin-top: -90px;
+  }
+
+  .products .block__products .product-cards__weights {
+    margin-bottom: 0;
+    margin-top: -3rem;
+  }
+
+  .products .block__products .products__footer {
+    margin: -13px 0 0 0;
+  }
+
+  .cart-error-message {
+    position: fixed;
+    top: 69px;
+    right: 0;
+    background-color: #f8d7da;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: -0.02em;
+    color: #222222;
+    padding: 15px 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    display: none;
+    font-size: 16px;
+    max-width: 300px;
+    text-align: center;
+    left: 0;
+    margin: 0 auto;
+  }
+
+  .shop-wrapper .products__info {
+    margin-top: 1rem;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 900px) {
+  .cert-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .ozero-benefit {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .ozero-benefit span {
+    width: 100%;
+    max-width: fit-content;
+  }
+}
+
+@media (max-width: 900px) {
+
+  .checkout-order-title.collapsible {
+    font-size: 14px;
+  }
+
+  .contact-fields label {
+    font-size: 14px;
+  }
+
+  .checkout-next-btn,
+  .checkout-submit-btn {
+    font-size: 14px;
+  }
+
+  .checkout-tabs {
+    flex-direction: row;
+    /* табы в ряд */
+    justify-content: space-between;
+    /* равномерное распределение по ширине */
+    gap: 0;
+    /* можно оставить 0, так как ширина фиксирована */
+    align-items: flex-end;
+  }
+
+  .contact-fields {
+    grid-template-columns: 1fr;
+  }
+
+  .check__info {
+    font-size: 14px;
+  }
+
+  .checkout-tab-content h2 {
+    font-size: 18px;
+  }
+
+  .shipping-method-item label {
+    font-size: 14px;
+  }
+
+  div#mrkv_ua_shipping_nova-poshta_poshtamat-shipping-info,
+  div#mrkv_ua_shipping_nova-poshta_address-shipping-info,
+  div#mrkv_ua_shipping_ukr-poshta-shipping-info {
+    display: flex;
+    flex-direction: column;
+  }
+
+  div#mrkv_ua_shipping_nova-poshta-shipping-info {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .delivery_c {
+    padding: 15px;
+  }
+
+  .delivery-icon {
+    right: 1px;
+  }
+
+  ul.wc_payment_methods.payment_methods.methods label {
+    font-size: 14px;
+  }
+
+  .cart-summary-row {
+    font-size: 14px !important;
+  }
+
+  .nova-poshta-icon {
+    width: 20px;
+  }
+
+  .select2-container--default .select2-selection--single .select2-selection__rendered {
+    max-width: 246px;
+    min-width: 243px;
+  }
+
+  .cert-card {
+    overflow: hidden;
+  }
+
+  .button-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+    flex-wrap: nowrap;
+    align-content: center;
+  }
+
+  .checkout-tab {
+    flex: 0 0 110px;
+    /* фиксированная ширина 110px */
+    text-align: center;
+    border-bottom: 1px solid #e0e0e0;
+    border-right: none;
+    min-width: 110px;
+    /* на всякий случай */
+    box-sizing: border-box;
+    padding: 15px 0px;
+  }
+
+  .checkout-title {
+    font-size: 27px;
+  }
+
+  /* Магазин */
+  .main__text__p {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .product-cards__weight {
+    height: auto;
+  }
+
+  .contact__cf7_2 {
+ 
+    z-index: 1;
+    background: white;
+  }
+
+  .desc {
+    font-size: 11px;
+  }
+
+  .economy {
+    font-size: 11px;
+  }
+
+  .product-grid {
+    grid-template-columns: 1fr;
+    justify-content: center;
+  }
+
+  .product-section h2 {
+    font-family: 'Benzin-Medium';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 110%;
+    max-width: 268px;
+  }
+
+  /* Продукт сингл */
+
+  .products__tabs {}
+
+  .clients-reviews__next {
+    display: none;
+  }
+
+  .clients-reviews__caption {
+    bottom: 114px;
+  }
+
+  .reviews-cta {
+
+    width: 50%;
+  }
+
+  .reviews-cta__btn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  a.next.page-numbers {
+    display: none;
+  }
+
+  a.prev.page-numbers {
+    display: none;
+  }
+
+  .tab-btn {
+    white-space: nowrap;
+    /* overflow: hidden; */
+    text-overflow: ellipsis;
+    max-width: 176px;
+    font-size: 14px;
+    min-width: auto;
+    padding: 0 10px;
+  }
+
+  .vitamin-list {
+    display: flex;
+    gap: 0;
+  }
+
+  .spirulina-product .product-info {
+    width: 100%;
+  }
+
+  .spirulina-product .product-cards__weights {
+    margin-bottom: 1rem;
+  }
+
+  .gallery-thumbs {
+    display: flex;
+    gap: 0px;
+    flex-wrap: wrap;
+  }
+
+  .spirulina-product .product-cards__weights {
+    margin-bottom: 1rem;
+    padding: 0;
+    padding-top: 20px;
+  }
+
+  .products__reklamma-img img {
+    display: block;
+    position: absolute;
+    transform: rotate(18.61deg);
+    /* height: 100%; */
+    width: auto;
+    top: -9px;
+    left: -38px;
+  }
+
+  .products__reklamma-img {}
+
+  .products__reklamma-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    align-items: flex-start;
+    margin-left: -44px;
+  }
+
+  .products__reklamma-btn {
+    font-size: 14px;
+  }
+
+
+
+  .products__reklamma-card {
+    display: grid;
+    align-items: center;
+    border-radius: 8px;
+    border: 1px solid #EBEBEB;
+    background: #FCFCFC;
+    overflow: hidden;
+    gap: 0px;
+    max-width: 600px;
+    margin: 0 auto;
+    /* margin-bottom: 80px; */
+    grid-template-columns: 1fr 1fr;
+
+  }
+
+  .products__reklamma-action {
+    display: flex;
+    align-items: center;
+    /* margin-left: 20px; */
+    justify-content: flex-end;
+    width: 179%;
+    margin-bottom: 1rem;
+  }
+
+  .products__reklamma-img {
+    overflow: visible;
+  }
+
+  .products__action__but {
+    width: 100%;
+  }
+
+  img.review-img {
+    height: auto;
+    width: 100%;
+  }
+
+  .product-image {
+    position: relative;
+    top: 0;
+  }
+
+  .spirulina-product .desc {
+    margin-bottom: 1rem;
+    max-width: 138px;
+    margin-top: 10px;
+    font-size: 10px;
+    line-height: 100%;
+  }
+
+  .spirulina-product .economy {
+    margin-top: 0;
+    font-size: 10px;
+  }
+
+  /* Страница пустой корзины */
+
+  .cart-empty-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    margin: 0 auto;
+    flex-direction: column;
+  }
+
+  .cart-empty-image img {
+    max-width: 300px;
+  }
+
+  .cart-empty-content h2 {
+    text-align: center;
+    font-size: 27px;
+
+  }
+
+  .cart-empty-content p {
+    text-align: center;
+    display: flex;
+
+
+
+    width: 100%;
+    justify-content: center;
+  }
+
+  .cart-empty-content {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 100%;
+    margin-top: -77px;
+  }
+
+  .cart-empty-btn {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 50px;
+  }
+
+  /* Кошик */
+
+
+
+
+  .cart-main-wrapper {
+    display: flex;
+    flex-direction: column;
+
+    gap: 0;
+  }
+
+  .cart-sidebar {
+    order: 1;
+    /* Move cart-sidebar (containing free shipping and summary) to the top */
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .cart-products-block {
+    order: 2;
+    /* Move cart-products-block below cart-sidebar */
+  }
+
+  .cart-free-shipping-block {
+    order: 1;
+    /* Ensure free shipping block is first within cart-sidebar */
+  }
+
+  .cart-summary-block {
+    order: 2;
+    /* Ensure summary block is last within cart-sidebar */
+  }
+
+  .cart-summary-block.only_mobile {
+    flex-direction: column;
+    margin-top: 20px;
+    width: 100%;
+  }
+
+  .cart-product-title {
+    font-size: 14px;
+  }
+
+  .cart-product-price {
+    display: flex;
+    gap: 6px;
+  }
+
+  .cart-products-list .product-card__quantity {
+    width: 74px;
+  }
+
+  .cart-product-item .product-card__quantity input {
+    margin: 0 -4px;
+  }
+
+  .cart-product-item .quantity-btn {
+    font-size: 18px;
+  }
+
+  section.product-section.carts h2 {
+    font-size: 27px;
+    max-width: 283px;
+  }
+
+  .custom-cart-section {
+    margin-top: 50px;
+  }
+
+  .woocommerce-Price-amount .amount,
+  .delivery__text,
+  span.woocommerce-Price-amount.amount {
+    color: black;
+    font-size: 14px;
+  }
+
+  .span.cart-discount {
+    min-width: 191px;
+  }
+
+  .one__cklick__block {
+    display: flex;
+    min-height: 520px;
+    flex-direction: column;
+  }
+
+  #formOrderOneClick>.popup {
+
+    margin: 0 auto;
+    background: #fff;
+    padding: 0px !important;
+    border-radius: 20px !important;
+    border: none !important;
+  }
+
+  #formOrderOneClick .popup #buyoneclick_form_order {
+    padding: 25px;
+  }
+
+
+
+  .images_block {
+    flex: 1 1 auto;
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 0px;
+    height: 260px;
+    background-repeat: no-repeat;
+    object-fit: unset;
+    background-size: 100%;
+    background-position-y: -33px;
+  }
+
+  #formOrderOneClick>.popup {
+    min-width: 90% !important;
+    width: 90% !important;
+
+    top: 50% !important;
+  }
+
+  .buyoneclick_form_title {
+    font-size: 16px;
+  }
+
+  .b1c-form label {
+    font-size: 14px;
+  }
+
+  #formOrderOneClick input[type="email"],
+  #buyoneclick_form_order input[type="tel"],
+  #buyoneclick_form_order input[type="text"] {
+    height: 50px !important;
+  }
+
+  #formOrderOneClick .button {
+    height: 50px !important;
+  }
+
+  .single_add_to_cart_button,
+  .woocommerce:where(body:not(.woocommerce-block-theme-has-button-styles)) button.button,
+  .woocommerce:where(body:not(.woocommerce-block-theme-has-button-styles)) button.button.alt {
+    font-size: 14px;
+  }
+
+  .products .product-card__quantity {
+    width: 80px;
+  }
+
+  .product-card__one-click {
+    min-width: auto;
+  }
+
+  .modal-text h3 {
+    font-size: 18px;
+  }
+
+  .consultant-image{
+    height: 345px;
+  }
+  .main-image {
+
+
+    background-size: 544px;
+
+
+  }
+
+  .contact__cf7 .close_order {
+    top: -9px;
+    right: 7px;
+    width: 35px;
+    height: 35px;
+  }
+
+  .contact__cf7_content {
+
+    margin: 0 auto;
+  }
+
+  .mrkv_ua_shipping_checkout_fields select+.select2 {
+    width: 88% !important;
+  }
+
+  input#mrkv_ua_shipping_nova-poshta_address_street {
+
+    width: 88%;
+  }
+
+  p#mrkv_ua_shipping_nova-poshta_address_street_ref_field input,
+  p#mrkv_ua_shipping_nova-poshta_address_house_field input,
+  p#mrkv_ua_shipping_nova-poshta_address_flat_field input {
+    width: 88%;
+  }
+
+  p#mrkv_ua_shipping_nova-poshta_address_flat_field {
+    margin-left: 0px;
+  }
+
+  p#mrkv_ua_shipping_ukr-poshta_address_flat_field {
+    margin-left: 0px;
+  }
+
+  .block__video_image {
+
+
+
+    gap: 10px;
+
+    height: 459px;
+
+    border-radius: 35px;
+
+
+  }
+
+  .video-title {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 110%;
+    text-align: center;
+    top: 38px;
+    left: 0;
+    right: 0;
+  }
+
+  .video-play-btn img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .video-title-green {
+    border-radius: 4px;
+    padding: 0 4px;
+  }
+
+  .video-modal-iframe-wrap {
+    width: 98vw;
+    height: 56vw;
+    min-width: 0;
+    min-height: 0;
+    max-width: 98vw;
+    max-height: 56vw;
+  }
+
+  .video-modal-close {
+    top: -18px;
+    right: -18px;
+    width: 32px;
+    height: 32px;
+    font-size: 22px;
+  }
+
+  .block__two__spirulina {
+    margin-bottom: 60px;
+    margin-top: 60px;
+  }
+}
